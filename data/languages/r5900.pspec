@@ -5,7 +5,56 @@
         <property key="addressesDoNotAppearDirectlyInCode" value="true"/>
     </properties>
     <programcounter register="pc"/>
-
+    <register_data>
+        <register name="vf0" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf1" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf2" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf3" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf4" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf5" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf6" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf7" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf8" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf9" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf10" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf11" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf12" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf13" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf14" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf15" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf16" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf17" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf18" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf19" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf20" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf21" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf22" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf23" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf24" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf25" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf26" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf27" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf28" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf29" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf30" vector_lane_sizes="4,4,4,4"/>
+        <register name="vf31" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi0" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi1" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi2" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi3" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi4" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi5" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi6" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi7" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi8" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi9" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi10" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi11" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi12" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi13" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi14" vector_lane_sizes="4,4,4,4"/>
+        <register name="vi15" vector_lane_sizes="4,4,4,4"/>
+    </register_data>
     <default_memory_blocks>
         <memory_block name="registers.io"   start_address="0x10000000" length="0x10000"     initialized="false" mode="rwv"/>
         <memory_block name="vu0.code"       start_address="0x11000000" length="0x1000"      initialized="false"/>
